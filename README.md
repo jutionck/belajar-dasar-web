@@ -1,7 +1,3 @@
 ### Web Fundamental
 
-1. Pengenalan Web
-2. Web Statis dan Dinamis
-3. Server Side dan Client Side
-4. Tool
-5. HTML, CSS, JavaScript
+1. HTML https://www.codecademy.com/learn/learn-html
