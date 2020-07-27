@@ -1,6 +1,7 @@
 ### Web Fundamental
 
-1. HTML https://www.codecademy.com/learn/learn-html <br>
+1. HTML <br>
+https://www.codecademy.com/learn/learn-html <br>
 Prograte https://progate.com/ [KODE VOUCHER] - PROGATEASIX161 <br>
 Batas waktu redeem kupon 4 agustus jam 23:59.
 
