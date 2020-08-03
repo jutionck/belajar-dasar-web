@@ -53,3 +53,47 @@ Cassegrain GOTO, dan Teleskop Surya.&lt;/p>
 </pre>
 
 Lihatlah perubahannya di browser.
+
+3. Menambahkan List pada Halaman Profil
+<pre>
+&lt;ul>
+   &lt;li>Sejarah&lt;/li>
+   &lt;li>Geografis&lt;/li>
+   &lt;li>Wisata&lt;/li>
+&lt;/ul>
+</pre>
+
+4. Menambahkan Gambar pada Halaman Profil <br>
+   Silahkan download dan taruh 1 folder bersama di <code>pertemuandua</code>
+
+5. Jika sudah buka kembali file <code>index.html</code>
+<pre>
+&lt;body>
+  ……
+ 
+   &lt;h2>Sejarah&lt;/h2>
+   &lt;img src="assets/image/history.jpg" alt="sejarah">
+
+…….
+
+&lt;h2>Geografis&lt;/h2>
+&lt;img src="assets/image/geografis.jpg" alt="geografis">
+
+…….
+
+&lt;h2>Wisata&lt;/h2>
+
+…….
+
+&lt;h3>Farm House Lembang&lt;/h3>
+&lt;img src="assets/image/farm-house.jpg" alt="farm house">
+
+…….
+
+&lt;h3>Observatorium Bosscha&lt;/h3>
+&lt;img src="assets/image/bosscha.jpg" alt="bosscha">
+
+…….
+&lt;/body>
+
+</pre>
