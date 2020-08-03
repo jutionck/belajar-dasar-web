@@ -97,3 +97,63 @@ Lihatlah perubahannya di browser.
 &lt;/body>
 
 </pre>
+
+6. Menerapkan Anchor pada Navigasi Halaman Profil
+
+Sebelumnya, pada halaman profil yang kita buat, sudah ada sebuah list sebagai navigasi. Namun demikian, karena belum ada elemen anchor, maka navigasi tersebut belum dapat kita gunakan. Oleh karena itu, mari kita tambahkan elemen anchor pada tiap item list-nya.
+
+Silakan buka kembali berkas index.html pada text editor. Tambahkan elemen anchor di setiap item list.
+
+<pre>
+&lt;ul>
+       &lt;li>&lt;a href="#">Sejarah&lt;/a>&lt;/li>
+       &lt;li>&lt;a href="#">Geografis&lt;/a>&lt;/li>
+       &lt;li>&lt;a href="#">Wisata&lt;/a>&lt;/li>
+&lt;/ul>
+</pre>
+
+Namun ketika salah satu item dipilih, tidak akan terjadi apa apa, karena pada atribut href kita belum menetapkan sebuah target. Nilai href dapat berupa sebuah URL untuk mengarahkan ke sebuah halaman yang berbeda. Selain itu juga berupa tanda pagar (#) diikuti dengan id elemen untuk mengarahkan tampilan pada elemen sesuai id yang ditentukan (masih dalam satu halaman).
+
+Maka dari itu, mari kita berikan atribut <code>id</code> pada sebuah elemen yang akan menjadi target navigasi. Berikan atribut <code>id</code> pada seluruh elemen <code>&lt;h2></code> dengan id sesuai dengan kontennya.
+
+<pre>
+&lt;body>
+  .......
+   &lt;ul>
+       &lt;li>&lt;a href="#">Sejarah&lt;/a>&lt;/li>
+       &lt;li>&lt;a href="#">Geografis&lt;/a>&lt;/li>
+       &lt;li>&lt;a href="#">Wisata&lt;/a>&lt;/li>
+   &lt;/ul>
+   &lt;h2 id="sejarah">Sejarah&lt;/h2>
+ .......
+ 
+   &lt;h2 id="geografis">Geografis&lt;/h2>
+ .......
+ 
+   &lt;h2 id="wisata">Wisata&lt;/h2>
+ .......
+&lt;/body>
+</pre>
+
+Kemudian tuliskan juga id elemen target setelah tanda pagar (#) pada tiap elemen anchor yang terdapat pada item list.
+
+<pre>
+&lt;body>
+  .......
+   &lt;ul>
+       &lt;li>&lt;a href="#sejarah">Sejarah&lt;/a>&lt;/li>
+       &lt;li>&lt;a href="#geografis">Geografis&lt;/a>&lt;/li>
+       &lt;li>&lt;a href="#wisata">Wisata&lt;/a>&lt;/li>
+   &lt;/ul>
+   &lt;h2 id="sejarah">Sejarah&lt;/h2>
+ .......
+ 
+   &lt;h2 id="geografis">Geografis&lt;/h2>
+ .......
+ 
+   &lt;h2 id="wisata">Wisata&lt;/h2>
+ .......
+&lt;/body>
+</pre>
+
+Lihat hasilnya...
