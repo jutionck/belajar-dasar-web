@@ -161,7 +161,7 @@ Lihat hasilnya...
 7. Semantic HTML - Mengorganisasikan Halaman Konten
 
 Pada HTML5 kita dikenalkan pada beberapa elemen yang dapat digunakan dalam mengelompokkan sebuah elemen dengan lebih jelas dan memiliki arti (semantic HTML). Elemen-elemen ini memiliki nama sesuai dengan fungsi atau peran dari elemen tersebut.
-![alt text](https://dicodingacademy.blob.core.windows.net/academies/20191206102521bd0be43e0e63642d10922c8caf26d32d.png)
+![alt text](https://github.com/jutionck/web-fundamental/blob/master/20191206102521bd0be43e0e63642d10922c8caf26d32d.png)
 
 8. Header dan Footer
 
