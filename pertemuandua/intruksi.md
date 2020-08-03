@@ -64,7 +64,7 @@ Lihatlah perubahannya di browser.
 </pre>
 
 4. Menambahkan Gambar pada Halaman Profil <br>
-   Silahkan download dan taruh 1 folder bersama di <code>pertemuandua</code>
+   Silahkan download https://github.com/jutionck/web-fundamental/blob/master/assets.zip dan taruh 1 folder bersama di <code>pertemuandua</code>
 
 5. Jika sudah buka kembali file <code>index.html</code>
 <pre>
