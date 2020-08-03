@@ -157,3 +157,70 @@ Kemudian tuliskan juga id elemen target setelah tanda pagar (#) pada tiap elemen
 </pre>
 
 Lihat hasilnya...
+
+7. Semantic HTML - Mengorganisasikan Halaman Konten
+
+Pada HTML5 kita dikenalkan pada beberapa elemen yang dapat digunakan dalam mengelompokkan sebuah elemen dengan lebih jelas dan memiliki arti (semantic HTML). Elemen-elemen ini memiliki nama sesuai dengan fungsi atau peran dari elemen tersebut.
+![alt text](https://dicodingacademy.blob.core.windows.net/academies/20191206102521bd0be43e0e63642d10922c8caf26d32d.png)
+
+8. Header dan Footer
+
+Elemen ini dapat kita gunakan untuk:
+
+Sebuah header dan footer utama yang muncul pada awal dan akhir di sebuah halaman <code>&lt;body></code>.
+Header digunakan sebagai pengantar atau pembuka konten dalam sebuah elemen <code>&lt;article></code> atau <code>&lt;section></code>.
+Footer digunakan sebagai catatan kaki pada sebuah elemen <code>&lt;article></code> atau <code>&lt;section></code>.
+
+Pada contoh dibawah ini elemen <code>&lt;header> </code>digunakan untuk menampilkan nama situs dan navigasi utama.
+
+<pre>
+&lt;header>
+   &lt;h1>Bandung&lt;/h1>
+   &lt;p>Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut.&lt;/p>
+   &lt;nav>
+       &lt;ul>
+           &lt;li>&lt;a href="#sejarah">Sejarah&lt;/a>&lt;/li>
+           &lt;li>&lt;a href="#geografis">Geografis&lt;/a>&lt;/li>
+           &lt;li>&lt;a href="#wisata">Wisata&lt;/a>&lt;/li>
+       &lt;/ul>
+   &lt;/nav>
+&lt;/header>
+</pre>
+
+Dan elemen <code>&lt;footer></code> digunakan sebagai informasi hak cipta.
+
+<pre>
+&lt;article>
+   &lt;header>
+       &lt;h1>Judul Artikel&lt;/h1>
+       &lt;h2>Oleh: Dicoding Indonesia&lt;/h2>
+   &lt;/header>
+   &lt;p>....... Konten artikel dimulai dari sini ......&lt;/p>
+   &lt;footer>
+       &lt;p>Bagikan artikel ini melalui&lt;/p>
+       &lt;ul>
+           &lt;li>Twitter&lt;/li>
+           &lt;li>Facebook&lt;/li>
+           &lt;li>......&lt;/li>
+       &lt;/ul>
+   &lt;/footer>
+&lt;/article>
+</pre>
+
+Nav
+
+Elemen <code>&lt;nav></code> digunakan untuk menampung sebuah navigasi yang sifatnya penting (major), contohnya navigasi utama pada sebuah website.
+
+Tapi tidak menjamin pada sebuah website hanya ada satu navigasi. Contohnya, sebuah akhir artikel pada blog terdapat tautan navigasi menuju artikel yang dianggap relevan dengan artikel yang telah kita baca. Navigasi tersebut tidak dianggap sebagai navigasi yang penting, sehingga kita tidak perlu menggunakan elemen <code>&lt;nav></code> untuk menampilkannya.
+
+Pada pembahasan header dan footer, kita sudah melihat contoh penggunaan dari elemen <code>&lt;nav></code> yang diletakkan pada elemen <code>&lt;header</code>.
+
+<pre>
+&lt;nav>
+   &lt;ul>
+       &lt;li>&lt;a href="#sejarah">Sejarah&lt;/a>&lt;/li>
+       &lt;li>&lt;a href="#geografis">Geografis&lt;/a>&lt;/li>
+       &lt;li>&lt;a href="#wisata">Wisata&lt;/a>&lt;/li>
+   &lt;/ul>
+&lt;/nav>
+</pre>
