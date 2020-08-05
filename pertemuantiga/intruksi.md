@@ -1,5 +1,17 @@
 ### Membuat Website Wisata
 
+Alur :
+
+<pre>
+1. Buat Database
+2. Membuat koneksi
+3. Buat Service (CRUD - Create, Read, Update, Delete)
+4. UI
+5. Sistem Authentication
+6. Testing
+7. Production
+</pre>
+
 Membuat Database
 
 <pre>
@@ -23,16 +35,4 @@ if($conn) {
 } else {
     echo "Koneksi gagal!!";
 }
-</pre>
-
-Alur :
-
-<pre>
-1. Buat Database
-2. Membuat koneksi
-3. Buat Service (CRUD - Create, Read, Update, Delete)
-4. UI
-5. Sistem Authentication
-6. Testing
-7. Production
 </pre>
