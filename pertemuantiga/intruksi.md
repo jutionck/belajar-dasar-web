@@ -48,6 +48,6 @@ $sql = mysqli_query($conn, "SELECT * FROM tb_lokasi");
 $result = mysqli_fetch_assoc($sql)
 
 //menampilkan
-$result["idlokasi"];
+echo $result["idlokasi"];
 
 </pre>
