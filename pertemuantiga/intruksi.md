@@ -83,3 +83,14 @@ Keterangan: <br>
 <code>mysqli_query</code> : Perintah ini digunakan untuk mengirimkan perintah SQL ke server MySQL untuk melakukan aktivitas CRUD yaitu meliputi CREATE (menambahkan data dengan perintah SQL INSERT), READ (membaca data dengan perintah SQL SELECT), UPDATE(mengubah data dengan perintah SQL UPDATE), DELETE (menghapus data dengan perintah SQL DELETE).
 
 <code>mysqli_fetch...</code> : Perintah ini digunakan untuk mengambil baris hasil query bisa sebagai (array index, array asosiatif, maupun object)
+
+Perulangan:
+
+<pre>
+&lt;?php
+$sql = mysqli_query($conn, "SELECT * FROM tb_lokasi");
+//buat perulangan disini
+while($row = mysqli_fetch_assoc(sql)) : ?&gt;
+    /* kode html disini */
+&lt?php endwhile ?&gt;
+</pre>
