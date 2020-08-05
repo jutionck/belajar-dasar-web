@@ -51,3 +51,35 @@ $result = mysqli_fetch_assoc($sql)
 echo $result["idlokasi"];
 
 </pre>
+
+Tipe fetching data
+
+<pre>
+1. Memakai Fetch Row:
+$sql = mysqli_query($conn, "SELECT * FROM tb_lokasi");
+$result = mysqli_fetch_row($sql);
+$result[0];
+
+2. Memakai Fetch Assoc:
+$sql = mysqli_query($conn, "SELECT * FROM tb_lokasi");
+$result = mysqli_fetch_assoc($sql);
+$result["idlokasi"];
+
+3. Memakai Fetch Array:
+$sql = mysqli_query($conn, "SELECT * FROM tb_lokasi");
+$result = mysqli_fetch_array($sql);
+$result["idlokasi"]; 
+$result[0];
+
+4. Memakai Fetch Object:
+$sql = mysqli_query($conn, "SELECT * FROM tb_lokasi");
+$result = mysqli_fetch_object($sql);
+$result->idlokasi;
+</pre>
+
+Keterangan: <br>
+<code>include</code> dan <code>require</code> : Perintah ini digunakan untuk memanggil file lain kedalam file
+
+<code>mysqli_query</code> : Perintah ini digunakan untuk mengirimkan perintah SQL ke server MySQL untuk melakukan aktivitas CRUD yaitu meliputi CREATE (menambahkan data dengan perintah SQL INSERT), READ (membaca data dengan perintah SQL SELECT), UPDATE(mengubah data dengan perintah SQL UPDATE), DELETE (menghapus data dengan perintah SQL DELETE).
+
+<code>mysqli_fetch...</code> : Perintah ini digunakan untuk mengambil baris hasil query bisa sebagai (array index, array asosiatif, maupun object)
