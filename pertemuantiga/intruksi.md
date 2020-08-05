@@ -36,3 +36,18 @@ if($conn) {
     echo "Koneksi gagal!!";
 }
 </pre>
+
+Memanggil Data dari Database dan Ditampilkan di Web
+
+<pre>
+&lt;?php
+include "config/koneksi.php";
+
+//ini coding selectData
+$sql = mysqli_query($conn, "SELECT * FROM tb_lokasi");
+$result = mysqli_fetch_assoc($sql)
+
+//menampilkan
+$result["idlokasi"];
+
+</pre>
